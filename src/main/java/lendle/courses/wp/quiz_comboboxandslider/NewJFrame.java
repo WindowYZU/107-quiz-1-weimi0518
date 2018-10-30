@@ -95,13 +95,13 @@ public class NewJFrame extends javax.swing.JFrame {
 
     private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
         // TODO add your handling code here:
-        int value = (int) jComboBox1.getSelectedItem();
+        int value = Integer.valueOf((String)jComboBox1.getSelectedItem());
         jSlider1.setValue(value);
     }//GEN-LAST:event_jComboBox1ActionPerformed
 
     private void jSlider1StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_jSlider1StateChanged
         // TODO add your handling code here:
-        jSlider1.setValue((int) jComboBox1.getSelectedItem());
+        //jSlider1.setValue((int) jComboBox1.getSelectedItem());
     }//GEN-LAST:event_jSlider1StateChanged
 
     /**
